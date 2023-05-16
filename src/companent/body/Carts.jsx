@@ -10,8 +10,8 @@ const Carts = () => {
       try {
         const result = await fetch('https://dummyjson.com/products');
         const data = await result.json();
-        setCart(data);
-        console.log(data);
+        setCart(data.products);
+        // console.log(data);
       } catch (error) {
         console.error('Xetta bas verdi', error);
       }

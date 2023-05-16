@@ -11,7 +11,7 @@ const Cart = ({ imgUrl, name,price }) => {
                     <img src={imgUrl}></img>
                 </div>
                 <div className='cart_info'>
-                    
+                    <div className='left-size'>
                     <div className='name'>
                         <div className='name_text'>
                             <a>{name}</a>
@@ -27,6 +27,7 @@ const Cart = ({ imgUrl, name,price }) => {
                     <div className='contact'>
                         <p>Baki 16.05.2023 / 4:53</p>
                         <h3>Zeng Edin</h3>
+                    </div>
                     </div>
                 </div>
             </div>
