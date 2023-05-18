@@ -13,7 +13,7 @@ const Carts = () => {
         setCart(data.products);
         // console.log(data);
       } catch (error) {
-        console.error('Xetta bas verdi', error);
+        console.error('Xeta bas verdi', error);
       }
     };
 
